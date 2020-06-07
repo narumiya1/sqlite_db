@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">sqlite_db</string>
+
+    <string-array name="daftar_jurusan">
+        <item> Teknik Informatika </item>
+        <item> Teknik Elektro </item>
+        <item> Administrasi Negara </item>
+        <item> Manajemen </item>
+        <item> Akuntansi </item>
+        <item> Bahasa Jerman </item>
+        <item> Bahasa Perancis </item>
+    </string-array>
 </resources>

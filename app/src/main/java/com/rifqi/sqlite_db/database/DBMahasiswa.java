@@ -10,15 +10,15 @@ public class DBMahasiswa extends SQLiteOpenHelper {
 
 
     //inner class/abstarct utk mengatur atribut : nama tabel,kolom , & query
-    static abstract class MyColumns implements BaseColumns {
+    public static abstract class MyColumns implements BaseColumns {
         //nama tabel
-        static final String NamaTable = "Mahasiswa" ;
-        static final String  NIM = "NIM" ;
-        static final String Nama = "Nama_Mahasiswa" ;
-        static final String Jurusan  = "Jurusan" ;
-        static final String JenisKelamin = "Jenis_Kelamin" ;
-        static final String TanggalLahir = "Tanggal_Lahir" ;
-        static final String Alamat = "Alamat" ;
+        public static final String NamaTable = "Mahasiswa" ;
+        public static final String NIM = "NIM" ;
+        public static final String Nama = "Nama_Mahasiswa" ;
+        public static final String Jurusan  = "Jurusan" ;
+        public static final String JenisKelamin = "Jenis_Kelamin" ;
+        public static final String TanggalLahir = "Tanggal_Lahir" ;
+        public static final String Alamat = "Alamat" ;
 
     }
 
@@ -54,5 +54,6 @@ public class DBMahasiswa extends SQLiteOpenHelper {
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
 
         db.execSQL(SQL_DELETE_ENTRIES);
+        onCreate(db);
     }
 }
