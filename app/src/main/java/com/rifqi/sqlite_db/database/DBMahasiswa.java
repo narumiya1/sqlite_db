@@ -8,6 +8,20 @@ import android.provider.BaseColumns;
 
 public class DBMahasiswa extends SQLiteOpenHelper {
 
+
+    //inner class/abstarct utk mengatur atribut : nama tabel,kolom , & query
+    static abstract class MyColumns implements BaseColumns {
+        //nama tabel
+        static final String NamaTable = "Mahasiswa" ;
+        static final String  NIM = "NIM" ;
+        static final String Nama = "Nama_Mahasiswa" ;
+        static final String Jurusan  = "Jurusan" ;
+        static final String JenisKelamin = "Jenis_Kelamin" ;
+        static final String TanggalLahir = "Tanggal_Lahir" ;
+        static final String Alamat = "Alamat" ;
+
+    }
+
     private static final String NamaDatabase = "mahasiswa.db" ;
     private static final int DatabaseVersion = 1 ;
 
@@ -22,21 +36,6 @@ public class DBMahasiswa extends SQLiteOpenHelper {
     private static final String SQL_DELETE_ENTRIES = " DROP TABLE IF EXISTS " +MyColumns.NamaTable ;
 
 
-
-    //inner class/abstarct utk mengatur atribut : nama tabel,kolom , & query
-    static abstract class MyColumns implements BaseColumns {
-        //nama tabel
-        static final String NamaTable = "Mahasiswa" ;
-        static final String  NIM = "NIM" ;
-        static final String Nama = "Nama_Mahasiswa" ;
-        static final String Jurusan  = "Jurusan" ;
-        static final String JenisKelamin = "Jenis_Kelamin" ;
-        static final String TanggalLahir = "Tanggal_Lahir" ;
-        static final String Alamat = "Alamat" ;
-
-
-
-    }
 
     //constructor
     public DBMahasiswa(Context context) {

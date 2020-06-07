@@ -4,7 +4,7 @@
             "outputFile": "/home/rifqi/AndroidStudioProjects/sqlite_db/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/home/rifqi/.gradle/caches/transforms-2/files-2.1/c323278adcbd42afb95c3416cc3751ea/res/values-v16/values-v16.xml",
+                    "source": "/home/rifqi/.gradle/caches/transforms-2/files-2.1/3e7cc1f552a136a10a81bb55f1ca9f02/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/home/rifqi/.gradle/caches/transforms-2/files-2.1/c584a3d6646af8ac49fce52de5c6aee9/res/values-v16/values-v16.xml",
+                    "source": "/home/rifqi/.gradle/caches/transforms-2/files-2.1/627ca3fc356103629fde973b3130d7f8/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
