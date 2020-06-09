@@ -14,7 +14,7 @@ import java.util.ArrayList;
 
 public class ReyclerViewAdapter extends RecyclerView.Adapter<ReyclerViewAdapter.ViewHolder> {
 
-    
+
     private ArrayList<DataFilter> dataList ;
 
     public ReyclerViewAdapter(ArrayList<DataFilter> dataList){

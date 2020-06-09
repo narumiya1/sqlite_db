@@ -9,6 +9,8 @@
     <string name="nama">Nama</string>
     <string name="nim">NIM</string>
     <string name="jurusan_v">Jurusan</string>
+    <string name="delete">Delete</string>
+    <string name="update">Update</string>
 
     <string-array name="daftar_jurusan">
         <item> Teknik Informatika </item>
