@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/rifqi/AndroidStudioProjects/sqlite_db/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /home/rifqi/AndroidStudioProjects/sqlite_db/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /home/rifqi/AndroidStudioProjects/sqlite_db/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /home/rifqi/AndroidStudioProjects/sqlite_db/app/src/main/AndroidManifest.xml:2:1-24:12
+ADDED from /home/rifqi/AndroidStudioProjects/sqlite_db/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/rifqi/AndroidStudioProjects/sqlite_db/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/rifqi/AndroidStudioProjects/sqlite_db/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/rifqi/AndroidStudioProjects/sqlite_db/app/src/main/AndroidManifest.xml:2:1-26:12
 MERGED from [com.android.support:design:27.1.1] /home/rifqi/.gradle/caches/transforms-2/files-2.1/00a5df147f179e8e1984ef0f28173e30/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] /home/rifqi/.gradle/caches/transforms-2/files-2.1/627ca3fc356103629fde973b3130d7f8/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/rifqi/.gradle/caches/transforms-2/files-2.1/7c75561c388e001309373acb555308bc/AndroidManifest.xml:2:1-11:12
@@ -22,22 +22,22 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/rifqi/.gradle/cac
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/rifqi/.gradle/caches/transforms-2/files-2.1/c29c6e228c787e33b4eb5131a8e69577/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/rifqi/.gradle/caches/transforms-2/files-2.1/f166d7059a124524b0777ed86f83715e/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] /home/rifqi/.gradle/caches/transforms-2/files-2.1/17f640e941fd53eeca5e6a019972773e/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/rifqi/AndroidStudioProjects/sqlite_db/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /home/rifqi/AndroidStudioProjects/sqlite_db/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /home/rifqi/AndroidStudioProjects/sqlite_db/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /home/rifqi/AndroidStudioProjects/sqlite_db/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/rifqi/AndroidStudioProjects/sqlite_db/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/rifqi/AndroidStudioProjects/sqlite_db/app/src/main/AndroidManifest.xml:2:1-26:12
 	package
 		ADDED from /home/rifqi/AndroidStudioProjects/sqlite_db/app/src/main/AndroidManifest.xml:4:5-34
 		INJECTED from /home/rifqi/AndroidStudioProjects/sqlite_db/app/src/main/AndroidManifest.xml
 		INJECTED from /home/rifqi/AndroidStudioProjects/sqlite_db/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/rifqi/AndroidStudioProjects/sqlite_db/app/src/main/AndroidManifest.xml
-		ADDED from /home/rifqi/AndroidStudioProjects/sqlite_db/app/src/main/AndroidManifest.xml:2:1-24:12
+		ADDED from /home/rifqi/AndroidStudioProjects/sqlite_db/app/src/main/AndroidManifest.xml:2:1-26:12
 		INJECTED from /home/rifqi/AndroidStudioProjects/sqlite_db/app/src/main/AndroidManifest.xml
 	xmlns:dist
 		ADDED from /home/rifqi/AndroidStudioProjects/sqlite_db/app/src/main/AndroidManifest.xml:3:5-61
 	android:versionCode
 		INJECTED from /home/rifqi/AndroidStudioProjects/sqlite_db/app/src/main/AndroidManifest.xml
-		ADDED from /home/rifqi/AndroidStudioProjects/sqlite_db/app/src/main/AndroidManifest.xml:2:1-24:12
+		ADDED from /home/rifqi/AndroidStudioProjects/sqlite_db/app/src/main/AndroidManifest.xml:2:1-26:12
 		INJECTED from /home/rifqi/AndroidStudioProjects/sqlite_db/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/rifqi/AndroidStudioProjects/sqlite_db/app/src/main/AndroidManifest.xml:2:11-69
@@ -46,7 +46,7 @@ ADDED from /home/rifqi/AndroidStudioProjects/sqlite_db/app/src/main/AndroidManif
 	dist:instant
 		ADDED from /home/rifqi/AndroidStudioProjects/sqlite_db/app/src/main/AndroidManifest.xml:6:18-37
 application
-ADDED from /home/rifqi/AndroidStudioProjects/sqlite_db/app/src/main/AndroidManifest.xml:8:5-22:19
+ADDED from /home/rifqi/AndroidStudioProjects/sqlite_db/app/src/main/AndroidManifest.xml:8:5-24:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/rifqi/.gradle/caches/transforms-2/files-2.1/7c75561c388e001309373acb555308bc/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/rifqi/.gradle/caches/transforms-2/files-2.1/7c75561c388e001309373acb555308bc/AndroidManifest.xml:9:5-20
 	android:supportsRtl
@@ -75,6 +75,10 @@ category#android.intent.category.LAUNCHER
 ADDED from /home/rifqi/AndroidStudioProjects/sqlite_db/app/src/main/AndroidManifest.xml:19:17-77
 	android:name
 		ADDED from /home/rifqi/AndroidStudioProjects/sqlite_db/app/src/main/AndroidManifest.xml:19:27-74
+activity#com.rifqi.sqlite_db.ViewData
+ADDED from /home/rifqi/AndroidStudioProjects/sqlite_db/app/src/main/AndroidManifest.xml:23:9-45
+	android:name
+		ADDED from /home/rifqi/AndroidStudioProjects/sqlite_db/app/src/main/AndroidManifest.xml:23:19-43
 uses-sdk
 INJECTED from /home/rifqi/AndroidStudioProjects/sqlite_db/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/rifqi/AndroidStudioProjects/sqlite_db/app/src/main/AndroidManifest.xml

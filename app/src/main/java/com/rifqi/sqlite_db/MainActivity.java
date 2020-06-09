@@ -2,6 +2,7 @@ package com.rifqi.sqlite_db;
 
 
 import android.content.ContentValues;
+import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -32,6 +33,8 @@ public class MainActivity extends AppCompatActivity {
         dbMahasiswa = new DBMahasiswa(getBaseContext());
 
         Button simpan = findViewById(R.id.save);
+
+
         NIM = findViewById(R.id.nim);
         Nama = findViewById(R.id.nama);
         TanggalLahir = findViewById(R.id.date);
@@ -50,6 +53,14 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(), "Data berhasil disimpan", Toast.LENGTH_SHORT).show();
 
 
+            }
+        });
+
+        Button viewData = findViewById(R.id.readData);
+        viewData.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, ViewData.class));
             }
         });
 

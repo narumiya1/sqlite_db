@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Data Mahasiswa"
+        android:text="@string/data_mahasiswa"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -21,7 +21,8 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="masukan NIM"
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"
+        tools:ignore="HardcodedText" />
 
     <EditText
         android:id="@+id/nama"
@@ -29,14 +30,15 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="masukan Nam"
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="4dp"
         android:layout_marginTop="6dp"
-        android:text="Fakultas / Jurusan : " />
+        android:text="@string/jurusan" />
 
     <Spinner
         android:id="@+id/fakultas_jurusan"
@@ -48,7 +50,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Jenis Kelamin" />
+        android:text="@string/jk" />
 
     <RadioGroup
         android:id="@+id/gender"
@@ -60,14 +62,14 @@
             android:id="@+id/male"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Laki-Laki" />
+            android:text="@string/lk" />
 
         <RadioButton
             android:id="@+id/famale"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="18dp"
-            android:text="Perempuan" />
+            android:text="@string/perempuan" />
 
     </RadioGroup>
 
@@ -76,7 +78,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Tanggal Lahir"
+        android:hint="@string/date"
         android:inputType="date" />
 
     <EditText
@@ -85,12 +87,21 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Alamat Lengkap"
-        android:inputType="textMultiLine" />
+        android:inputType="textMultiLine"
+        tools:ignore="HardcodedText" />
 
     <Button
         android:id="@+id/save"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Simpan Data baru" />
+        android:text="Simpan Data baru"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/readData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lihat Data Yang Tersimpan"
+        tools:ignore="HardcodedText" />
 
 </LinearLayout>

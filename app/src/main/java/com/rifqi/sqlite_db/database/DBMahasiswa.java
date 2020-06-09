@@ -23,7 +23,7 @@ public class DBMahasiswa extends SQLiteOpenHelper {
     }
 
     private static final String NamaDatabase = "mahasiswa.db" ;
-    private static final int DatabaseVersion = 1 ;
+    private static final int DatabaseVersion = 14 ;
 
 
     //query table
